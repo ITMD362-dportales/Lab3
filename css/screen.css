@@ -21,7 +21,6 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -192,6 +191,7 @@ img, audio, video {
 */
 
 html {
+  font-family:  'Signika', 'Adamina', sans-serif; /* 1 */
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -203,6 +203,9 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+html {
+  text-align: center;
+}
 
 /* ===== MODULAR STYLES ===== */
 
