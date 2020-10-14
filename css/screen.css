@@ -21,9 +21,11 @@ input,
 optgroup,
 select,
 textarea {
+  font-family:  'Signika', 'Roboto', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  background-color: #C0C0C0;
 }
 
 /**
@@ -191,16 +193,28 @@ img, audio, video {
 */
 
 html {
-  font-family:  'Signika', 'Adamina', sans-serif; /* 1 */
+  font-family:  'Signika', 'Roboto', sans-serif; /* 1 */
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: #cedaaa;
 }
 
-label {
-  display: block;
+h1 {
+  font-size: 2em;
+  padding: .75em;
 }
+
+p {
+  font-size: 1.5em;
+  padding: .75em;
+}
+
+li {
+  padding: .75em;
+}
+
 
 /* ===== LAYOUT STYLES ====== */
 html {
@@ -212,9 +226,7 @@ html {
 /* ===== STATE STYLES ======= */
 /*Desktop Page*/
 @media only screen and (min-width: 850px){
-	
-}
-/*Mobile Page*/
-@media only screen and (max-width: 850px){
-
+	html {
+		font-size: 300%;
+	}
 }
