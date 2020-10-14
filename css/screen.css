@@ -227,6 +227,13 @@ html {
 /*Desktop Page*/
 @media only screen and (min-width: 850px){
 	html {
-		font-size: 300%;
+		font-size: 200%;
+		background-color: red;
+	}
+}
+@media only screen and (max-width: 400px){
+	html {
+		font-size: 200%;
+		background-color: blue;
 	}
 }
