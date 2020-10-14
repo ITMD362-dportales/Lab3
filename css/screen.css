@@ -204,16 +204,18 @@ html {
 
 h1 {
   font-size: 2em;
-  padding-bottom: .75em;
+  padding-bottom: .55em;
+  line-height: 1.182em;
 }
 
 p {
   font-size: 1.2em;
-  padding-bottom: .75em;
+  padding: .8em; 
+  line-height: 1.182em;
 }
 
 li {
-  padding-bottom: .75em;
+  padding: .8em;
 }
 
 input {
